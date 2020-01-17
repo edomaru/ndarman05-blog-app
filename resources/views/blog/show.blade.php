@@ -7,7 +7,7 @@
                 <article class="post-item post-detail">
                     <div class="post-item-image">
                         <a href="#">
-                            <img src="img/Post_Image_1.jpg" alt="">
+                            <img src="/img/Post_Image_1.jpg" alt="">
                         </a>
                     </div>
 
