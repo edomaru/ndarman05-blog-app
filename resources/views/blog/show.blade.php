@@ -22,7 +22,7 @@
                                     <li><i class="fa fa-comments"></i><a href="#">4 Comments</a></li>
                                 </ul>
                             </div>
-                            <p> {{$post->body}} </p>
+                            <p> {!! $post->body_html !!} </p>
                         </div>
                     </div>
                 </article>
