@@ -9,6 +9,7 @@ use GrahamCampbell\Markdown\Facades\Markdown;
 
 class Post extends Model
 {
+    protected $fillable = ['category_id'];
     protected $dates = ['published_at'];
 
     public function author(){
