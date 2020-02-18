@@ -24,7 +24,7 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('layouts.sidebar' function($view){
+        view()->composer('layouts.sidebar', function($view){
             $categories = Category::with(['posts' => function($query){
                 $query->published();
             }])->orderBy('title', 'asc')->get();
